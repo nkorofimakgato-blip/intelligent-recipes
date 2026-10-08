@@ -49,6 +49,16 @@ public class MainActivity extends AppCompatActivity {
 
         updateEmptyMessage();
 
+        // Clear all button
+        findViewById(R.id.clearAllButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pantry.clear();
+                chipGroup.removeAllViews();
+                updateEmptyMessage();
+            }
+        });
+
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) { addIngredientFromInput(); }
         });

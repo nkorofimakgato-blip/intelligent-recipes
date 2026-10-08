@@ -10,13 +10,11 @@ import java.util.Set;
 
 public class RecipeMatcher {
 
-    /** A recipe the user can make right now — nothing missing. */
     public static class FullMatch {
         public final Recipe recipe;
         public FullMatch(Recipe recipe) { this.recipe = recipe; }
     }
 
-    /** A recipe missing exactly one ingredient. */
     public static class AlmostMatch {
         public final Recipe recipe;
         public final String missingIngredient;
@@ -26,14 +24,10 @@ public class RecipeMatcher {
         }
     }
 
-    /** Normalize: lowercase + trim, for comparison. */
     private static String norm(String s) {
         return s == null ? "" : s.toLowerCase(Locale.ROOT).trim();
     }
 
-    /**
-     * Given what the user has, find recipes where EVERY ingredient is present.
-     */
     public static List<FullMatch> findFullMatches(
             List<Recipe> allRecipes, List<String> userHas) {
 
@@ -59,9 +53,6 @@ public class RecipeMatcher {
         return results;
     }
 
-    /**
-     * Given what the user has, find recipes missing exactly ONE ingredient.
-     */
     public static List<AlmostMatch> findAlmostMatches(
             List<Recipe> allRecipes, List<String> userHas) {
 
@@ -73,19 +64,19 @@ public class RecipeMatcher {
         for (Recipe recipe : allRecipes) {
             if (recipe.getIngredients() == null) continue;
 
-            String missing = null;
+            String lastMissing = null;
             int missingCount = 0;
 
             for (String ingredient : recipe.getIngredients()) {
                 if (!pantry.contains(norm(ingredient))) {
                     missingCount++;
-                    missing = ingredient;
-                    if (missingCount > 1) break;
+                    lastMissing = ingredient;
+                    if (missingCount > 2) break;
                 }
             }
 
-            if (missingCount == 1) {
-                results.add(new AlmostMatch(recipe, missing));
+            if (missingCount >= 1 && missingCount <= 2) {
+                results.add(new AlmostMatch(recipe, lastMissing));
             }
         }
         return results;

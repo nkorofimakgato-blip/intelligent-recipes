@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Intelligent Recipes"
+            android:text="@string/app_title"
             android:textSize="32sp"
             android:textStyle="bold"
             android:textColor="#111827"
@@ -24,13 +24,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What's in your kitchen?"
+            android:text="@string/subtitle"
             android:textSize="16sp"
             android:textColor="#6B7280"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="24dp" />
 
-        <!-- Input row: text field + Add button -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,12 +41,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="e.g. chicken, rice, garlic"
+                android:hint="@string/input_hint"
                 android:padding="14dp"
                 android:background="@android:drawable/edit_text"
                 android:textSize="16sp"
+                android:textColor="#111827"
+                android:textColorHint="#9CA3AF"
                 android:inputType="text"
                 android:imeOptions="actionDone"
+                android:autofillHints=""
                 android:maxLines="1" />
 
             <Button
@@ -55,23 +57,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="Add"
+                android:text="@string/add"
                 android:backgroundTint="#111827"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
-        <!-- Empty message (hidden when chips exist) -->
         <TextView
             android:id="@+id/emptyMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="No ingredients yet. Add one above."
+            android:text="@string/empty_message"
             android:textSize="14sp"
-            android:textColor="#9CA3AF"
+            android:textColor="#6B7280"
             android:layout_marginTop="20dp"
             android:gravity="center" />
 
-        <!-- Chips container -->
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/chipGroup"
             android:layout_width="match_parent"
@@ -80,13 +80,27 @@
             app:chipSpacingHorizontal="8dp"
             app:chipSpacingVertical="8dp" />
 
-        <!-- Action buttons -->
+        <Button
+            android:id="@+id/clearAllButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end"
+            android:text="@string/clear_all"
+            android:textSize="12sp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#374151"
+            android:stateListAnimator="@null" />
+
         <Button
             android:id="@+id/findRecipesButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Find Recipes"
+            android:text="@string/find_recipes"
             android:textSize="16sp"
             android:padding="16dp"
             android:backgroundTint="#111827"
@@ -97,7 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Surprise me"
+            android:text="@string/surprise_me"
             android:textSize="16sp"
             android:padding="16dp"
             android:backgroundTint="#E5E7EB"

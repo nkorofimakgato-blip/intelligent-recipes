@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">intelligent-recipy</string>
+    <string name="app_name">Intelligent Recipes</string>
+    <string name="app_title">Intelligent Recipes</string>
+    <string name="subtitle">What\'s in your kitchen?</string>
+    <string name="input_hint">e.g. chicken, rice, garlic</string>
+    <string name="add">Add</string>
+    <string name="empty_message">No ingredients yet. Add one above.</string>
+    <string name="clear_all">Clear all</string>
+    <string name="find_recipes">Find Recipes</string>
+    <string name="surprise_me">Surprise me</string>
 </resources>
