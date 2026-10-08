@@ -1,52 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
+    android:fillViewport="true"
     android:background="#F9FAFB">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Intelligent Recipes"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:textColor="#111827"
-        android:gravity="center"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="8dp" />
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="What do you want to cook?"
-        android:textSize="16sp"
-        android:textColor="#6B7280"
-        android:gravity="center"
-        android:layout_marginBottom="32dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intelligent Recipes"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:layout_marginTop="16dp" />
 
-    <EditText
-        android:id="@+id/searchInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="e.g. pasta, chicken, curry"
-        android:padding="16dp"
-        android:background="@android:drawable/edit_text"
-        android:textSize="16sp"
-        android:inputType="text"
-        android:imeOptions="actionSearch"
-        android:maxLines="1"
-        android:layout_marginBottom="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What's in your kitchen?"
+            android:textSize="16sp"
+            android:textColor="#6B7280"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp" />
 
-    <Button
-        android:id="@+id/searchButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search"
-        android:textSize="16sp"
-        android:padding="16dp"
-        android:backgroundTint="#111827"
-        android:textColor="#FFFFFF" />
+        <!-- Input row: text field + Add button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
-</LinearLayout>
+            <EditText
+                android:id="@+id/ingredientInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="e.g. chicken, rice, garlic"
+                android:padding="14dp"
+                android:background="@android:drawable/edit_text"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:maxLines="1" />
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Add"
+                android:backgroundTint="#111827"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Empty message (hidden when chips exist) -->
+        <TextView
+            android:id="@+id/emptyMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No ingredients yet. Add one above."
+            android:textSize="14sp"
+            android:textColor="#9CA3AF"
+            android:layout_marginTop="20dp"
+            android:gravity="center" />
+
+        <!-- Chips container -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:chipSpacingHorizontal="8dp"
+            app:chipSpacingVertical="8dp" />
+
+        <!-- Action buttons -->
+        <Button
+            android:id="@+id/findRecipesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Find Recipes"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="#111827"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/surpriseMeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Surprise me"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="#E5E7EB"
+            android:textColor="#111827" />
+
+    </LinearLayout>
+</ScrollView>
