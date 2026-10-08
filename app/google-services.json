@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520489797075",
+    "project_id": "intelligent-recipes",
+    "storage_bucket": "intelligent-recipes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520489797075:android:90c027e464fe1136389b26",
+        "android_client_info": {
+          "package_name": "com.example.intelligent_recipy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwAMaFLgIMuxpnBRnkqcI5iiyo17AXd5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

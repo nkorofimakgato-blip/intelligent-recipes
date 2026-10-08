@@ -134,5 +134,28 @@
             android:textColor="@color/brand_primary"
             android:stateListAnimator="@null" />
 
+        <Button
+            android:id="@+id/addRecipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:text="➕ Share a Recipe"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:backgroundTint="@color/brand_secondary"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/communityButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="🌍 Community Recipes"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:backgroundTint="@color/bg_card"
+            android:textColor="@color/brand_primary"
+            android:stateListAnimator="@null" />
+
     </LinearLayout>
 </ScrollView>

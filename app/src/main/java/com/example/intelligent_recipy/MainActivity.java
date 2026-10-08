@@ -71,16 +71,44 @@ public class MainActivity extends AppCompatActivity {
         });
 
         surpriseMeButton.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View v) { findRecipes(true); }
+            @Override
+            public void onClick(View v) {
+                if (pantry.isEmpty()) {
+                    Toast.makeText(MainActivity.this,
+                            "Add at least one ingredient first",
+                            Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                Intent intent = new Intent(MainActivity.this,
+                        RecommendationsActivity.class);
+                intent.putStringArrayListExtra(
+                        RecommendationsActivity.EXTRA_PANTRY,
+                        new ArrayList<>(pantry));
+                startActivity(intent);
+            }
         });
 
-        // ▼ Camera button
         cameraButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "Camera button tapped");
                 Intent intent = new Intent(MainActivity.this, CameraActivity.class);
                 startActivityForResult(intent, REQUEST_CAMERA);
+            }
+        });
+
+        // ▼ Two new buttons for community feature
+        findViewById(R.id.addRecipeButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AddRecipeActivity.class));
+            }
+        });
+
+        findViewById(R.id.communityButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CommunityActivity.class));
             }
         });
     }

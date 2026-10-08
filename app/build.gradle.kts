@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services") version "4.4.2"
 }
 
 android {
@@ -54,4 +55,8 @@ dependencies {
     implementation("androidx.camera:camera-view:1.4.0")
 
     implementation("com.google.mlkit:image-labeling:17.0.9")
+
+    // Firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
+    implementation("com.google.firebase:firebase-firestore")
 }

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bg_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Top bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/ic_menu_revert"
+                android:padding="4dp"
+                android:contentDescription="Back"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Share a recipe"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe name *"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/recipeNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. Grandma's Chicken Stew"
+            android:padding="14dp"
+            android:background="@drawable/input_bg"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/recipeCategoryInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. Chicken, Dessert, Soup"
+            android:padding="14dp"
+            android:background="@drawable/input_bg"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your name"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/authorNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Who made this?"
+            android:padding="14dp"
+            android:background="@drawable/input_bg"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:layout_marginTop="4dp" />
+
+        <!-- Ingredients section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients *"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <EditText
+                android:id="@+id/ingredientInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="e.g. 2 cups flour"
+                android:padding="14dp"
+                android:background="@drawable/input_bg"
+                android:textSize="16sp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="#9CA3AF"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <Button
+                android:id="@+id/addIngredientButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Add"
+                android:backgroundTint="@color/brand_primary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/ingredientChips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:chipSpacingHorizontal="6dp"
+            app:chipSpacingVertical="6dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+        <!-- Instructions -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions *"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/instructionsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write the cooking steps..."
+            android:padding="14dp"
+            android:background="@drawable/input_bg"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minLines="4"
+            android:gravity="top"
+            android:layout_marginTop="4dp" />
+
+        <!-- Save button -->
+        <Button
+            android:id="@+id/saveRecipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="Share with everyone"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/brand_primary"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -21,12 +21,12 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private static final int TYPE_HEADER = 0;
     private static final int TYPE_RECIPE = 1;
 
-    /** A single row — either a section header or a recipe card. */
     public static class Row {
         final int type;
         final String headerText;
         final Recipe recipe;
-        final String missingIngredient; // null for full matches
+        final String missingIngredient;
+        public String scoreText; // optional
 
         private Row(int type, String headerText, Recipe recipe, String missingIngredient) {
             this.type = type;
@@ -80,7 +80,8 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         if (holder instanceof HeaderViewHolder) {
             ((HeaderViewHolder) holder).text.setText(row.headerText);
         } else if (holder instanceof RecipeViewHolder) {
-            ((RecipeViewHolder) holder).bind(row.recipe, row.missingIngredient, listener);
+            ((RecipeViewHolder) holder).bind(
+                    row.recipe, row.missingIngredient, row.scoreText, listener);
         }
     }
 
@@ -107,6 +108,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         final ImageView image;
         final TextView name;
         final TextView category;
+        final TextView score;
         final TextView missing;
 
         RecipeViewHolder(@NonNull View itemView) {
@@ -114,11 +116,17 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             image    = itemView.findViewById(R.id.recipeImage);
             name     = itemView.findViewById(R.id.recipeName);
             category = itemView.findViewById(R.id.recipeCategory);
+            score    = itemView.findViewById(R.id.recipeScore);
             missing  = itemView.findViewById(R.id.recipeMissing);
         }
 
         void bind(final Recipe recipe, String missingIngredient,
                   final OnRecipeClickListener listener) {
+            bind(recipe, missingIngredient, null, listener);
+        }
+
+        void bind(final Recipe recipe, String missingIngredient,
+                  String scoreText, final OnRecipeClickListener listener) {
             name.setText(recipe.getName());
             category.setText(recipe.getCategory() + " · " + recipe.getArea());
 
@@ -134,6 +142,13 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 missing.setText("Missing: " + missingIngredient);
             } else {
                 missing.setVisibility(View.GONE);
+            }
+
+            if (scoreText != null && !scoreText.isEmpty()) {
+                score.setVisibility(View.VISIBLE);
+                score.setText(scoreText);
+            } else {
+                score.setVisibility(View.GONE);
             }
 
             itemView.setOnClickListener(new View.OnClickListener() {

@@ -419,4 +419,672 @@
     "measures": ["4","2 cups","400g","1","3 cloves","100g","2 tbsp","1 bunch"],
     "instructions": "Cook rice with onion, garlic, tomatoes. Mix with cheese and parsley. Fill peppers. Bake 180C for 30 minutes."
   }
+
+,
+  {
+    "id": "61", "name": "Chicken Tikka Masala", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","yogurt","tomatoes","onion","garlic","ginger","curry powder","cream","rice"],
+    "measures": ["600g","200ml","400g","2","4 cloves","1 inch","2 tbsp","150ml","2 cups"],
+    "instructions": "Marinate chicken in yogurt and spices. Grill or pan-sear. Sauté onion, garlic, ginger. Add tomatoes and spices, simmer. Add cream and chicken. Serve with rice."
+  },
+  {
+    "id": "62", "name": "Beef Pho", "category": "Soup", "area": "Vietnamese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","rice noodles","onion","ginger","beef stock","star anise","cinnamon","basil","lime"],
+    "measures": ["500g","300g","2","2 inch","2L","3","1 stick","1 bunch","1"],
+    "instructions": "Simmer stock with charred onion, ginger, spices 1 hour. Strain. Cook noodles. Thinly slice raw beef. Pour hot broth over beef. Top with basil and lime."
+  },
+  {
+    "id": "63", "name": "Ratatouille", "category": "Vegetarian", "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["zucchini","eggplant","tomatoes","bell pepper","onion","garlic","olive oil","thyme"],
+    "measures": ["2","1","4","2","1","4 cloves","4 tbsp","1 tsp"],
+    "instructions": "Slice all vegetables thinly. Sauté onion and garlic. Layer vegetables in dish. Drizzle oil, sprinkle thyme. Bake 180C for 45 minutes."
+  },
+  {
+    "id": "64", "name": "Chicken Pot Pie", "category": "Chicken", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","carrot","peas","onion","chicken stock","flour","butter","puff pastry"],
+    "measures": ["500g","3","1 cup","1","500ml","3 tbsp","3 tbsp","1 sheet"],
+    "instructions": "Cook chicken and vegetables. Make roux with butter and flour, add stock. Combine with chicken and vegetables. Top with pastry. Bake 200C for 30 minutes."
+  },
+  {
+    "id": "65", "name": "Eggplant Parmesan", "category": "Vegetarian", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggplant","tomatoes","mozzarella","parmesan","basil","garlic","olive oil","breadcrumbs"],
+    "measures": ["2","800g","250g","80g","1 bunch","4 cloves","3 tbsp","1 cup"],
+    "instructions": "Slice eggplant, salt, rest 30 minutes. Bread and fry. Layer with tomato sauce, cheeses, basil. Bake 180C for 30 minutes."
+  },
+  {
+    "id": "66", "name": "Coleslaw", "category": "Side", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cabbage","carrot","mayonnaise","vinegar","sugar","salt","pepper"],
+    "measures": ["1/2 head","2","1/2 cup","2 tbsp","2 tbsp","to taste","to taste"],
+    "instructions": "Shred cabbage and carrot. Mix mayo, vinegar, sugar, salt, pepper. Toss with vegetables. Chill 30 minutes before serving."
+  },
+  {
+    "id": "67", "name": "Sloppy Joes", "category": "Beef", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","onion","bell pepper","tomatoes","ketchup","brown sugar","vinegar","buns"],
+    "measures": ["500g","1","1","400g","1 cup","2 tbsp","1 tbsp","4"],
+    "instructions": "Brown beef with onion and pepper. Add tomatoes, ketchup, sugar, vinegar. Simmer 15 minutes. Serve on toasted buns."
+  },
+  {
+    "id": "68", "name": "Tiramisu", "category": "Dessert", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["mascarpone","eggs","sugar","ladyfingers","coffee","cocoa powder"],
+    "measures": ["500g","4","100g","24","300ml","3 tbsp"],
+    "instructions": "Whisk yolks with sugar, fold in mascarpone. Dip ladyfingers in coffee. Layer with cream mixture. Dust with cocoa. Chill 4 hours."
+  },
+  {
+    "id": "69", "name": "Pulled Pork", "category": "Pork", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pork shoulder","brown sugar","paprika","cumin","garlic powder","onion","bbq sauce","buns"],
+    "measures": ["2kg","3 tbsp","2 tbsp","1 tbsp","1 tbsp","1","500ml","8"],
+    "instructions": "Rub pork with spices and sugar. Slow cook 8 hours. Shred with forks. Mix with bbq sauce. Serve on buns."
+  },
+  {
+    "id": "70", "name": "Gazpacho", "category": "Soup", "area": "Spanish",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["tomatoes","cucumber","bell pepper","onion","garlic","olive oil","vinegar","bread"],
+    "measures": ["1kg","1","1","1/2","2 cloves","3 tbsp","2 tbsp","2 slices"],
+    "instructions": "Blend all ingredients until smooth. Chill 2 hours. Serve cold with a drizzle of olive oil."
+  },
+  {
+    "id": "71", "name": "Mac and Cheese", "category": "Pasta", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pasta","cheese","milk","butter","flour","mustard","breadcrumbs"],
+    "measures": ["400g","300g","500ml","4 tbsp","4 tbsp","1 tsp","1/2 cup"],
+    "instructions": "Cook pasta. Make roux with butter and flour, add milk. Stir in cheese and mustard. Combine with pasta. Top with breadcrumbs, bake 180C for 20 minutes."
+  },
+  {
+    "id": "72", "name": "Chicken Satay", "category": "Chicken", "area": "Thai",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","peanut butter","coconut milk","soy sauce","curry powder","garlic","lime","skewers"],
+    "measures": ["600g","4 tbsp","200ml","3 tbsp","2 tsp","3 cloves","1","10"],
+    "instructions": "Slice chicken, thread onto skewers. Grill 4 minutes per side. Simmer peanut butter, coconut milk, soy, curry, garlic for sauce. Serve with lime."
+  },
+  {
+    "id": "73", "name": "Ramen", "category": "Soup", "area": "Japanese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ramen noodles","eggs","pork","miso paste","garlic","ginger","green onion","soy sauce"],
+    "measures": ["200g","2","300g","3 tbsp","3 cloves","1 inch","3 stalks","3 tbsp"],
+    "instructions": "Simmer stock with miso, garlic, ginger, soy. Cook noodles. Soft boil eggs, halve. Assemble bowls with noodles, broth, pork, eggs, onions."
+  },
+  {
+    "id": "74", "name": "Vegetable Lasagna", "category": "Vegetarian", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["lasagna sheets","zucchini","eggplant","tomatoes","mozzarella","parmesan","garlic","basil"],
+    "measures": ["12","2","1","800g","250g","80g","4 cloves","1 bunch"],
+    "instructions": "Grill sliced vegetables. Layer sheets, vegetables, tomato sauce, cheese. Repeat. Top with cheese. Bake 180C for 40 minutes."
+  },
+  {
+    "id": "75", "name": "Chicken Schnitzel", "category": "Chicken", "area": "German",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","flour","eggs","breadcrumbs","lemon","butter","oil","parsley"],
+    "measures": ["4","100g","2","150g","1","50g","3 tbsp","1 bunch"],
+    "instructions": "Pound chicken thin. Coat in flour, egg, breadcrumbs. Pan-fry in oil and butter 3 minutes per side. Serve with lemon and parsley."
+  },
+  {
+    "id": "76", "name": "Butter Chicken", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","yogurt","tomatoes","butter","cream","garlic","ginger","garam masala"],
+    "measures": ["600g","200ml","400g","100g","150ml","4 cloves","1 inch","2 tbsp"],
+    "instructions": "Marinate chicken in yogurt and spices. Grill. Sauté garlic, ginger, tomatoes, butter. Blend smooth. Add cream and chicken. Serve with rice or naan."
+  },
+  {
+    "id": "77", "name": "Pasta Carbonara", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["spaghetti","eggs","bacon","parmesan","garlic","pepper"],
+    "measures": ["400g","4","200g","100g","2 cloves","to taste"],
+    "instructions": "Cook spaghetti. Fry bacon with garlic. Whisk eggs with parmesan and pepper. Toss hot pasta with bacon then egg mixture off heat. Serve immediately."
+  },
+  {
+    "id": "78", "name": "Stuffed Mushrooms", "category": "Appetizer", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["mushroom","breadcrumbs","parmesan","garlic","parsley","olive oil"],
+    "measures": ["12","1 cup","80g","4 cloves","1 bunch","3 tbsp"],
+    "instructions": "Remove mushroom stems, chop. Mix with breadcrumbs, cheese, garlic, parsley. Fill caps. Bake 180C for 20 minutes."
+  },
+  {
+    "id": "79", "name": "Beef Stroganoff", "category": "Beef", "area": "Russian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","mushroom","onion","sour cream","flour","beef stock","mustard","noodles"],
+    "measures": ["600g","300g","1","200ml","2 tbsp","300ml","1 tbsp","400g"],
+    "instructions": "Brown beef strips. Sauté onion and mushrooms. Add flour, stock, mustard. Return beef, add sour cream. Serve over egg noodles."
+  },
+  {
+    "id": "80", "name": "Chicken Parmesan", "category": "Chicken", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","breadcrumbs","parmesan","mozzarella","tomatoes","eggs","flour","basil"],
+    "measures": ["4","1 cup","80g","200g","800g","2","100g","1 bunch"],
+    "instructions": "Bread chicken and fry. Top with tomato sauce, mozzarella, parmesan. Bake 180C for 20 minutes. Garnish with basil."
+  },
+  {
+    "id": "81", "name": "Pumpkin Soup", "category": "Soup", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pumpkin","onion","garlic","vegetable stock","cream","nutmeg","butter"],
+    "measures": ["1kg","1","3 cloves","1L","200ml","1 pinch","3 tbsp"],
+    "instructions": "Sauté onion and garlic in butter. Add pumpkin and stock. Simmer 25 minutes. Blend, add cream, season with nutmeg."
+  },
+  {
+    "id": "82", "name": "Sweet and Sour Chicken", "category": "Chicken", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","bell pepper","pineapple","ketchup","vinegar","sugar","soy sauce","rice"],
+    "measures": ["600g","2","1 cup","4 tbsp","3 tbsp","3 tbsp","2 tbsp","2 cups"],
+    "instructions": "Fry chicken until golden. Sauté peppers and pineapple. Add ketchup, vinegar, sugar, soy. Simmer 5 minutes. Return chicken. Serve over rice."
+  },
+  {
+    "id": "83", "name": "Bruschetta", "category": "Appetizer", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bread","tomatoes","basil","garlic","olive oil","balsamic vinegar"],
+    "measures": ["8 slices","4","1 bunch","2 cloves","3 tbsp","1 tbsp"],
+    "instructions": "Toast bread. Rub with raw garlic. Top with diced tomatoes and basil. Drizzle oil and balsamic."
+  },
+  {
+    "id": "84", "name": "Vegetable Spring Rolls", "category": "Appetizer", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["spring roll wrappers","cabbage","carrot","mushroom","soy sauce","ginger","garlic","oil"],
+    "measures": ["10","1/2 head","2","150g","3 tbsp","1 inch","3 cloves","for frying"],
+    "instructions": "Stir-fry shredded vegetables with ginger, garlic, soy. Cool. Roll in wrappers. Deep fry until golden. Serve with dipping sauce."
+  },
+  {
+    "id": "85", "name": "Chicken Shawarma", "category": "Chicken", "area": "Middle Eastern",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","yogurt","garlic","cumin","paprika","lemon","pita","tomatoes"],
+    "measures": ["600g","200ml","4 cloves","1 tbsp","1 tbsp","1","4","2"],
+    "instructions": "Marinate chicken in yogurt and spices 2 hours. Grill, slice. Serve in pita with tomatoes and garlic sauce."
+  },
+  {
+    "id": "86", "name": "Sushi Rolls", "category": "Japanese", "area": "Japanese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["sushi rice","nori","salmon","cucumber","avocado","vinegar","sugar","soy sauce"],
+    "measures": ["2 cups","4 sheets","200g","1","1","3 tbsp","2 tbsp","4 tbsp"],
+    "instructions": "Cook rice, season with vinegar and sugar. Place nori on mat, spread rice. Add fillings. Roll tightly, slice. Serve with soy sauce."
+  },
+  {
+    "id": "87", "name": "Beef Wellington", "category": "Beef", "area": "British",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef tenderloin","mushroom","puff pastry","mustard","eggs","thyme","butter","prosciutto"],
+    "measures": ["1kg","500g","1 sheet","3 tbsp","1","1 tsp","3 tbsp","6 slices"],
+    "instructions": "Sear beef, brush with mustard. Pulse mushrooms into duxelles. Wrap beef in prosciutto and mushrooms. Wrap in pastry, brush with egg. Bake 200C for 25 minutes."
+  },
+  {
+    "id": "88", "name": "Falafel", "category": "Vegetarian", "area": "Middle Eastern",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chickpeas","onion","garlic","parsley","cumin","coriander","flour","oil"],
+    "measures": ["400g","1","4 cloves","1 bunch","2 tsp","2 tsp","3 tbsp","for frying"],
+    "instructions": "Blend soaked chickpeas, onion, garlic, herbs, spices. Add flour. Form balls. Deep fry until golden. Serve in pita with tahini."
+  },
+  {
+    "id": "89", "name": "Chicken Biryani", "category": "Rice", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken","basmati rice","yogurt","onion","garlic","ginger","biryani spices","saffron"],
+    "measures": ["1kg","3 cups","300ml","3","6 cloves","2 inch","2 tbsp","1 pinch"],
+    "instructions": "Marinate chicken in yogurt and spices. Fry onions until crisp. Layer rice and chicken. Add saffron milk. Cook covered on low 30 minutes."
+  },
+  {
+    "id": "90", "name": "Beef Enchiladas", "category": "Mexican", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","tortillas","cheese","enchilada sauce","onion","garlic","cumin","cilantro"],
+    "measures": ["500g","8","300g","400g","1","3 cloves","1 tsp","1 bunch"],
+    "instructions": "Brown beef with onion, garlic, cumin. Roll in tortillas with cheese. Place in dish, top with sauce and cheese. Bake 180C for 20 minutes. Top with cilantro."
+  },
+  {
+    "id": "91", "name": "Garlic Shrimp", "category": "Seafood", "area": "Spanish",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["shrimp","garlic","olive oil","chili flakes","parsley","lemon","bread"],
+    "measures": ["500g","8 cloves","4 tbsp","1 tsp","1 bunch","1","1 loaf"],
+    "instructions": "Heat oil with garlic and chili. Add shrimp, cook 2 minutes per side. Add parsley and lemon. Serve with crusty bread."
+  },
+  {
+    "id": "92", "name": "Cheesecake", "category": "Dessert", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cream cheese","sugar","eggs","vanilla","graham crackers","butter","lemon"],
+    "measures": ["600g","200g","3","2 tsp","200g","100g","1"],
+    "instructions": "Crush crackers, mix with butter, press into pan. Beat cream cheese, sugar, eggs, vanilla, lemon. Pour over crust. Bake 160C for 50 minutes. Chill overnight."
+  },
+  {
+    "id": "93", "name": "Vegetable Pad See Ew", "category": "Noodles", "area": "Thai",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice noodles","broccoli","carrot","eggs","garlic","soy sauce","oyster sauce","oil"],
+    "measures": ["300g","1 head","2","2","4 cloves","3 tbsp","2 tbsp","3 tbsp"],
+    "instructions": "Soak noodles. Stir-fry garlic and vegetables. Add eggs, scramble. Add noodles and sauces. Toss well. Serve hot."
+  },
+  {
+    "id": "94", "name": "Pork Dumplings", "category": "Appetizer", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground pork","cabbage","garlic","ginger","soy sauce","sesame oil","wonton wrappers","green onion"],
+    "measures": ["400g","2 cups","4 cloves","1 inch","3 tbsp","1 tbsp","30","3 stalks"],
+    "instructions": "Mix pork, cabbage, garlic, ginger, soy, sesame, onion. Fill wrappers, seal. Steam 8 minutes or pan-fry. Serve with dipping sauce."
+  },
+  {
+    "id": "95", "name": "Chicken Gyros", "category": "Chicken", "area": "Greek",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","yogurt","cucumber","garlic","lemon","oregano","pita","tomatoes"],
+    "measures": ["600g","300ml","1","4 cloves","1","2 tsp","4","2"],
+    "instructions": "Marinate chicken in lemon, oregano, garlic. Grill and slice. Mix yogurt with cucumber and garlic for tzatziki. Serve in pita with tomatoes."
+  },
+  {
+    "id": "96", "name": "Beef Chili", "category": "Beef", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","kidney beans","tomatoes","onion","bell pepper","garlic","chili powder","cumin"],
+    "measures": ["800g","800g","800g","2","2","5 cloves","3 tbsp","2 tsp"],
+    "instructions": "Brown beef. Sauté onion, pepper, garlic. Add spices, tomatoes, beans. Simmer 45 minutes. Serve with rice, cheese, sour cream."
+  },
+  {
+    "id": "97", "name": "Veggie Pizza", "category": "Pizza", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pizza dough","tomato sauce","mozzarella","bell pepper","mushroom","onion","olives","oregano"],
+    "measures": ["1","200ml","250g","1","150g","1","100g","1 tsp"],
+    "instructions": "Roll dough. Spread sauce, add cheese and vegetables. Sprinkle oregano. Bake 250C for 12 minutes."
+  },
+  {
+    "id": "98", "name": "Chicken Pot Stickers", "category": "Appetizer", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground chicken","cabbage","garlic","ginger","soy sauce","sesame oil","wonton wrappers","green onion"],
+    "measures": ["400g","2 cups","4 cloves","1 inch","3 tbsp","1 tbsp","30","3 stalks"],
+    "instructions": "Mix filling. Fill wrappers, fold and seal. Pan-fry, add water, cover, steam 6 minutes. Serve with dipping sauce."
+  },
+  {
+    "id": "99", "name": "Eggs Benedict", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","english muffins","ham","butter","lemon","vinegar","chives"],
+    "measures": ["4","2","4 slices","150g","1/2","1 tbsp","1 bunch"],
+    "instructions": "Poach eggs in vinegared water. Toast muffins. Warm ham. Whisk egg yolks with melted butter and lemon for hollandaise. Assemble and top with chives."
+  },
+  {
+    "id": "100", "name": "Lemon Garlic Chicken", "category": "Chicken", "area": "Mediterranean",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","lemon","garlic","olive oil","oregano","potato","parsley"],
+    "measures": ["4","2","8 cloves","4 tbsp","1 tsp","4","1 bunch"],
+    "instructions": "Marinate chicken with lemon, garlic, oil, oregano. Arrange with sliced potatoes in baking dish. Roast 200C for 40 minutes. Garnish with parsley."
+  }
+,{
+  "id": "101", "name": "Bobotie", "category": "Beef", "area": "South African",
+  "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+  "ingredients": ["ground beef","onion","garlic","curry powder","turmeric","apricot jam","vinegar","bread","milk","eggs","bay leaves","almonds"],
+  "measures": ["900g","1 large","2 cloves","1.5 tbsp","1 tsp","1/4 cup","2 tbsp","1 slice","1 cup","2","4-6","1/4 cup"],
+  "instructions": "Soak bread in half the milk. Sauté onion and garlic, add beef and spices. Stir in soaked bread, jam, vinegar, almonds. Transfer to dish, top with beaten eggs and remaining milk. Add bay leaves. Bake at 180°C for 40 minutes until golden."
+},
+  {
+    "id": "102", "name": "Chakalaka", "category": "Side", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["oil","onion","garlic","ginger","curry powder","cabbage","yellow pepper","red pepper","carrots","tomatoes","baked beans"],
+    "measures": ["3 tbsp","1","2 cloves","8cm","2 tbsp","1/2 head","1","1","4","5","400g tin"],
+    "instructions": "Sauté onion in oil until soft. Add ginger, garlic, curry powder. Add cabbage, peppers, carrots, tomatoes. Cook 6-8 minutes. Add baked beans and simmer 10 minutes. Season and serve with pap or braai meat."
+  },
+  {
+    "id": "103", "name": "Malva Pudding", "category": "Dessert", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","bicarbonate of soda","egg","sugar","apricot jam","vanilla essence","buttermilk","butter","vinegar","milk","cream"],
+    "measures": ["1 cup","1 tsp","1","1/3 cup","1/4 cup","1 tsp","1 cup","3 tbsp","2 tsp","1/2 cup","1/2 cup"],
+    "instructions": "Mix flour and soda. Beat egg, sugar, jam, vanilla. Add buttermilk and melted butter. Fold in flour. Add vinegar. Bake at 180°C for 35-40 minutes. For sauce, heat milk, cream, butter, sugar and pour over hot pudding."
+  },
+  {
+    "id": "104", "name": "Peppermint Crisp Tart", "category": "Dessert", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["tennis biscuits","caramel treat","cream","peppermint crisp chocolate"],
+    "measures": ["1 packet","1 tin","250ml","2 bars"],
+    "instructions": "Whip cream until stiff. Fold in caramel. Layer biscuits and cream mixture in dish. Repeat layers. Crush peppermint crisp over top. Refrigerate 4 hours or overnight."
+  },
+  {
+    "id": "105", "name": "Boerewors", "category": "Beef", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","pork","spek","coriander","cloves","nutmeg","black pepper","salt","vinegar","worcestershire sauce"],
+    "measures": ["1kg","500g","200g","1 tbsp","1/2 tsp","1/4 tsp","1 tsp","2 tsp","2 tbsp","1 tbsp"],
+    "instructions": "Mince meats. Mix with spices, vinegar, worcestershire. Stuff into sausage casings. Braai over medium coals until cooked through, turning regularly."
+  },
+  {
+    "id": "106", "name": "Braaibroodjie", "category": "Side", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bread","butter","cheddar cheese","tomatoes","onion","mrs balls chutney","salt","pepper"],
+    "measures": ["8 slices","softened","8 slices","2","1","4 tbsp","to taste","to taste"],
+    "instructions": "Butter bread on outside. Spread chutney on inside. Layer cheese, tomato, onion. Season. Close sandwich. Braai over medium coals until golden and cheese melted."
+  },
+  {
+    "id": "107", "name": "Pumpkin Fritters", "category": "Side", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pumpkin","flour","sugar","baking powder","egg","cinnamon","salt","oil"],
+    "measures": ["500g","1 cup","2 tbsp","1 tsp","1","1/2 tsp","1 pinch","for frying"],
+    "instructions": "Grate raw pumpkin. Mix with flour, sugar, baking powder, egg, cinnamon, salt. Drop spoonfuls into hot oil. Fry until golden. Drain. Dust with cinnamon sugar."
+  },
+  {
+    "id": "108", "name": "Buttermilk Rusks", "category": "Snack", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","sugar","baking powder","salt","butter","buttermilk","eggs","vanilla"],
+    "measures": ["1kg","200g","4 tsp","1 tsp","250g","500ml","2","1 tsp"],
+    "instructions": "Mix dry ingredients. Rub in butter. Add buttermilk, eggs, vanilla. Form dough. Shape into balls, place in pan. Bake at 180°C for 45 minutes. Break apart, dry in oven at 100°C for 4-5 hours."
+  },
+  {
+    "id": "109", "name": "Peri-Peri Chicken Livers", "category": "Breakfast", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken livers","peri-peri sauce","garlic","lemon","butter","cream","bread"],
+    "measures": ["500g","4 tbsp","3 cloves","1/2","2 tbsp","1/4 cup","1 loaf"],
+    "instructions": "Sauté garlic in butter. Add livers, cook until browned. Add peri-peri sauce, lemon juice, cream. Simmer 5 minutes. Serve on crusty bread."
+  },
+  {
+    "id": "110", "name": "Tomato Bredie", "category": "Lamb", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["lamb","onion","garlic","tomatoes","potatoes","cinnamon","cardamom","ginger","coriander","thyme"],
+    "measures": ["1kg","2","2 cloves","1kg","3","3 sticks","6 pods","4 tsp","5 tsp","2 tbsp"],
+    "instructions": "Brown lamb. Sauté onions with spices. Return meat, add tomatoes, simmer 30 minutes. Add potatoes, cook 40-60 minutes until tender. Garnish with fresh herbs."
+  },
+  {
+    "id": "111", "name": "Chutney Chicken", "category": "Chicken", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken portions","onion","yoghurt","cornflour","chutney","rooibos tea"],
+    "measures": ["8 pieces","2","1 cup","2 tsp","1/2 cup","1/2 cup"],
+    "instructions": "Place sliced onions and chicken in oven dish. Mix yoghurt, cornflour, chutney, tea. Pour over chicken. Bake at 180°C for 30-45 minutes until golden and cooked through."
+  },
+  {
+    "id": "112", "name": "Mielie Bread", "category": "Side", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cream-style sweetcorn","self-raising flour","eggs","milk","butter","salt"],
+    "measures": ["1 can","1 cup","2","1/2 cup","2 tbsp","1/2 tsp"],
+    "instructions": "Mix all ingredients until smooth. Pour into greased loaf tin. Bake at 180°C for 35-40 minutes until golden. Serve warm with butter."
+  },
+  {
+    "id": "113", "name": "Creamy Potato Salad", "category": "Side", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["baby potatoes","eggs","mayonnaise","dijon mustard","parsley","salt","pepper"],
+    "measures": ["1kg","4","1 cup","1 tbsp","2 tbsp","to taste","to taste"],
+    "instructions": "Boil potatoes until tender, cool and halve. Boil eggs, chop. Mix mayonnaise, mustard, parsley, salt, pepper. Fold in potatoes and eggs. Refrigerate 1 hour."
+  },
+  {
+    "id": "114", "name": "Three-Bean Salad", "category": "Salad", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["green beans","baked beans","kidney beans","onion","vinegar","sugar","oil","mustard powder"],
+    "measures": ["1 can","1 can","1 can","1/2","1/2 cup","1/2 cup","1/4 cup","1 tsp"],
+    "instructions": "Drain beans. Mix with chopped onion. Whisk vinegar, sugar, oil, mustard. Pour over beans. Refrigerate 4 hours or overnight."
+  },
+  {
+    "id": "115", "name": "Melkkos", "category": "Dessert", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["milk","flour","butter","salt","cinnamon sugar"],
+    "measures": ["1L","1 cup","2 tbsp","1 pinch","to serve"],
+    "instructions": "Heat milk. Mix flour with a little cold milk to form paste. Stir into hot milk. Add butter and salt. Simmer until thickened. Serve with cinnamon sugar."
+  },
+  {
+    "id": "116", "name": "Mogodu", "category": "Beef", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef tripe","onion","garlic","tomatoes","curry powder","paprika","stock","salt","pepper"],
+    "measures": ["1kg","1","3 cloves","3","1 tbsp","1 tsp","500ml","to taste","to taste"],
+    "instructions": "Clean and boil tripe until tender, 2-3 hours. Sauté onion and garlic. Add spices and tomatoes. Add tripe and stock. Simmer 30 minutes. Serve with pap."
+  },
+  {
+    "id": "117", "name": "Chicken Feet Stew", "category": "Chicken", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken feet","onion","garlic","ginger","tomatoes","curry powder","chilli","stock"],
+    "measures": ["1kg","1","3 cloves","1 inch","3","2 tbsp","1 tsp","500ml"],
+    "instructions": "Clean chicken feet, boil until tender. Sauté onion, garlic, ginger. Add spices, tomatoes, stock. Add feet, simmer 20 minutes. Serve with pap or bread."
+  },
+  {
+    "id": "118", "name": "Oxtail Stew", "category": "Beef", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["oxtail","onion","carrot","celery","garlic","tomatoes","beef stock","red wine","thyme"],
+    "measures": ["1.5kg","2","3","3","4 cloves","400g","1L","250ml","1 tsp"],
+    "instructions": "Brown oxtail. Sauté vegetables. Add wine, stock, tomatoes, thyme. Return oxtail. Simmer 3 hours until tender. Serve with rice or mash."
+  },
+  {
+    "id": "119", "name": "Cape Malay Lamb Breyani", "category": "Lamb", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["lamb","basmati rice","yoghurt","onion","garlic","ginger","breyani spices","potatoes","lentils"],
+    "measures": ["1kg","3 cups","300ml","3","6 cloves","2 inch","3 tbsp","4","1 cup"],
+    "instructions": "Marinate lamb in yoghurt and spices. Layer rice, lamb, potatoes, lentils. Add saffron water. Cook covered on low for 1 hour. Serve with sambals."
+  },
+  {
+    "id": "120", "name": "Mevrou", "category": "Beef", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","onion","garlic","ginger","curry powder","turmeric","tomatoes","potatoes","stock"],
+    "measures": ["1kg","2","4 cloves","1 inch","2 tbsp","1 tsp","4","3","500ml"],
+    "instructions": "Brown beef. Sauté onion, garlic, ginger with spices. Add tomatoes and stock. Simmer 1 hour. Add potatoes, cook 30 minutes. Serve with rice."
+  },
+  {
+    "id": "121", "name": "Chana Masala (Chickpea Curry)", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chickpeas","onion","garlic","ginger","tomatoes","curry powder","garam masala","rice"],
+    "measures": ["2 cans","1","3 cloves","1 inch","400g","2 tbsp","1 tsp","2 cups"],
+    "instructions": "Sauté onion, garlic, and ginger until soft. Stir in spices, tomatoes, and rinsed chickpeas. Simmer for 15 minutes. Serve hot over cooked rice."
+  },
+  {
+    "id": "122", "name": "Koeksisters", "category": "Dessert", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","baking powder","butter","milk","sugar","water","cinnamon","ginger","lemon juice","oil"],
+    "measures": ["2 cups","2 tsp","2 tbsp","1/2 cup","2 cups","1 cup","1/2 tsp","1/2 tsp","1 tbsp","for frying"],
+    "instructions": "Boil sugar, water, spices, lemon juice for syrup and chill. Make dough with flour, baking powder, butter, milk. Braid dough strips, deep fry until golden, submerge immediately into ice-cold syrup."
+  },
+  {
+    "id": "123", "name": "Vetkoek with Curry Mince", "category": "Beef", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","yeast","sugar","salt","warm water","ground beef","onion","garlic","curry powder","carrots","peas","oil"],
+    "measures": ["4 cups","1 packet","1 tbsp","1 tsp","1.5 cups","400g","1","2 cloves","1.5 tbsp","2","1/2 cup","for frying"],
+    "instructions": "Knead dough, let rise 1 hour. Fry spoonfuls in hot oil until puffed and golden. Sauté mince, onion, garlic, spices, carrots, peas. Slice vetkoek open and stuff with hot mince."
+  },
+  {
+    "id": "124", "name": "Bean & Potato Bunny Chow", "category": "Curry", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["white bread loaf","sugar beans","potatoes","onion","garlic","ginger","curry powder","tomatoes"],
+    "measures": ["1 unsliced","2 cans","3","2","3 cloves","1 inch","2.5 tbsp","2"],
+    "instructions": "Cook spicy bean and potato curry with onions, garlic, ginger, spices, and tomatoes. Hollow out half bread loaves. Ladle hot curry into bread bowl and top with scooped bread."
+  },
+  {
+    "id": "125", "name": "Sausage & Potato Bake", "category": "Beef", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["sausages","potatoes","onion","bell pepper","oil","paprika","salt","pepper"],
+    "measures": ["6","4","1","1","2 tbsp","1 tsp","to taste","to taste"],
+    "instructions": "Chop sausages, potatoes, onion, and bell pepper. Toss with oil, paprika, salt, and pepper. Bake at 200°C for 35 minutes until golden and crispy."
+  },
+  {
+    "id": "126", "name": "Melktert (Milk Tart)", "category": "Dessert", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["milk","puff pastry","butter","sugar","eggs","cornflour","flour","cinnamon"],
+    "measures": ["1L","1 sheet","3 tbsp","1 cup","3","4 tbsp","4 tbsp","1 tbsp"],
+    "instructions": "Line pie dish with pastry. Heat milk with butter. Whisk eggs, sugar, cornflour, flour. Stir into hot milk until thick custard forms. Pour into crust, bake at 180°C for 25 minutes. Dust with cinnamon."
+  },
+  {
+    "id": "127", "name": "Creamy Garlic Spinach Pasta", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pasta","frozen spinach","garlic","milk","butter","flour","cheese","salt","pepper"],
+    "measures": ["400g","250g","4 cloves","1.5 cups","2 tbsp","2 tbsp","100g","to taste","to taste"],
+    "instructions": "Boil pasta. Sauté garlic in butter, add flour, then pour in milk to make sauce. Stir in spinach and cheese until melted. Toss with hot pasta."
+  },
+  {
+    "id": "128", "name": "Chicken Drumstick Sosaties", "category": "Chicken", "area": "South African",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken drumsticks","onion","curry powder","garlic","vinegar","apricot jam","oil"],
+    "measures": ["8","2","2 tbsp","3 cloves","1/3 cup","3 tbsp","2 tbsp"],
+    "instructions": "Simmer onion, curry, garlic, vinegar, and jam for marinade. Marinate drumsticks for 2 hours. Bake or braai over medium coals until cooked through and golden."
+  },
+  {
+    "id": "129", "name": "Pasta Aglio e Olio", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["spaghetti","garlic","olive oil","chili flakes","parsley","salt"],
+    "measures": ["400g","6 cloves","1/3 cup","1 tsp","1 bunch","to taste"],
+    "instructions": "Cook pasta in salted water. Sauté thinly sliced garlic and chili flakes gently in olive oil. Toss cooked pasta directly into the garlic oil with chopped parsley."
+  },
+  {
+    "id": "130", "name": "Dal Tadka (Yellow Lentil Curry)", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["yellow lentils","onion","garlic","ginger","tomatoes","cumin","turmeric","oil","rice"],
+    "measures": ["1.5 cups","1","4 cloves","1 inch","2","1 tsp","1 tsp","2 tbsp","2 cups"],
+    "instructions": "Boil lentils until soft. Sauté onion, garlic, ginger, cumin, turmeric, and tomatoes in oil. Stir fried spice mixture into soft cooked lentils. Serve over rice."
+  },
+  {
+    "id": "131", "name": "Egg Drop Soup", "category": "Soup", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken stock","eggs","soy sauce","green onion","cornflour","sesame oil"],
+    "measures": ["1L","3","1 tbsp","2 stalks","2 tbsp","1 tsp"],
+    "instructions": "Bring stock and soy sauce to simmer. Stir in cornflour slurry to thicken slightly. Slowly pour beaten eggs while gently stirring. Garnish with green onions and sesame oil."
+  },
+  {
+    "id": "132", "name": "Cabbage & Mince Stir-Fry", "category": "Beef", "area": "Asian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","cabbage","carrots","soy sauce","garlic","ginger","oil"],
+    "measures": ["350g","1/2 head","2","3 tbsp","3 cloves","1 inch","2 tbsp"],
+    "instructions": "Brown ground meat with minced garlic and ginger. Add shredded cabbage and carrots. Stir-fry for 5 minutes until vegetables are tender-crisp. Stir in soy sauce."
+  },
+  {
+    "id": "133", "name": "One-Pot Chicken & Rice", "category": "Chicken", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken drumsticks","rice","onion","garlic","chicken stock","paprika","peas"],
+    "measures": ["6","1.5 cups","1","2 cloves","3 cups","1 tsp","1 cup"],
+    "instructions": "Brown chicken drumsticks in pot, remove. Sauté onion and garlic, add rice, paprika, stock, and peas. Return chicken on top, cover and simmer 20 minutes."
+  },
+  {
+    "id": "134", "name": "Spanish Rice & Beans", "category": "Vegetarian", "area": "Spanish",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice","black beans","onion","garlic","bell pepper","tomato paste","cumin","vegetable stock"],
+    "measures": ["1.5 cups","1 can","1","3 cloves","1","2 tbsp","1 tsp","3 cups"],
+    "instructions": "Sauté onion, garlic, bell pepper in oil. Add tomato paste, cumin, rice, beans, and stock. Cover and simmer 20 minutes until rice is fluffy."
+  },
+  {
+    "id": "135", "name": "Black Bean & Cheese Tacos", "category": "Vegetarian", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["black beans","corn tortillas","cheddar cheese","onion","garlic","cumin","salsa"],
+    "measures": ["2 cans","8","150g","1","2 cloves","1 tsp","1/2 cup"],
+    "instructions": "Sauté onion, garlic, beans, and cumin until warm. Warm corn tortillas. Fill with beans, top with grated cheese and salsa."
+  },
+  {
+    "id": "136", "name": "Cottage Pie", "category": "Beef", "area": "British",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","onion","carrots","peas","beef stock","potatoes","butter","milk"],
+    "measures": ["400g","1","2","1 cup","1 cup","800g","2 tbsp","1/4 cup"],
+    "instructions": "Sauté ground beef, onion, carrots, peas with stock until thick. Put in baking dish. Top with mashed potatoes. Bake at 200°C for 25 minutes."
+  },
+  {
+    "id": "137", "name": "Potato & Chickpea Massaman Curry", "category": "Curry", "area": "Thai",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potatoes","chickpeas","coconut milk","curry paste","onion","peanuts","rice"],
+    "measures": ["3","1 can","400ml","3 tbsp","1","1/3 cup","2 cups"],
+    "instructions": "Simmer curry paste in coconut milk. Add diced potatoes, chickpeas, onion, and peanuts. Cook on medium heat for 20 minutes until potatoes are tender. Serve over rice."
+  },
+  {
+    "id": "138", "name": "Potato & Cheese Taquitos", "category": "Vegetarian", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potatoes","corn tortillas","cheddar cheese","cumin","salt","oil"],
+    "measures": ["4","10","150g","1 tsp","to taste","for frying"],
+    "instructions": "Boil and mash potatoes with cumin and salt. Roll mashed potatoes and cheese in warm corn tortillas. Shallow fry until golden and crispy."
+  },
+  {
+    "id": "139", "name": "Baked Marinara Pasta", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["penne pasta","canned tomatoes","garlic","onion","mozzarella","oregano","oil"],
+    "measures": ["400g","800g","3 cloves","1","150g","1 tsp","2 tbsp"],
+    "instructions": "Sauté onion and garlic, add canned tomatoes and oregano, simmer 10 minutes. Toss cooked penne with sauce. Top with mozzarella and bake at 180°C for 20 minutes."
+  },
+  {
+    "id": "140", "name": "Creamy Potato & Leek Soup", "category": "Soup", "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potatoes","onion","garlic","vegetable stock","milk","butter","salt","pepper"],
+    "measures": ["800g","2","3 cloves","1L","1 cup","2 tbsp","to taste","to taste"],
+    "instructions": "Sauté onions and garlic in butter. Add peeled potatoes and vegetable stock. Simmer 20 minutes until tender. Blend until smooth, stir in milk, season well."
+  },
+  {
+    "id": "141", "name": "Upgraded Egg & Spinach Instant Ramen", "category": "Noodles", "area": "Asian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["instant ramen","egg","spinach","soy sauce","green onion","sesame oil"],
+    "measures": ["1 packet","1","1 cup","1 tbsp","2 stalks","1 tsp"],
+    "instructions": "Cook ramen in boiling water. Crack egg into broth and cover 2 minutes. Stir in spinach, soy sauce, and sesame oil. Top with green onions."
+  },
+  {
+    "id": "142", "name": "Microwave Mug Mac & Cheese", "category": "Pasta", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["macaroni","water","milk","cheddar cheese","butter","salt","pepper"],
+    "measures": ["1/2 cup","1/2 cup","1/4 cup","1/2 cup","1 tbsp","to taste","to taste"],
+    "instructions": "Microwave macaroni and water in a mug for 3 minutes. Stir in milk, butter, cheese, salt, and pepper. Microwave 1 more minute until cheesy."
+  },
+  {
+    "id": "143", "name": "5-Minute Peanut Butter Sesame Noodles", "category": "Noodles", "area": "Asian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["spaghetti","peanut butter","soy sauce","garlic","warm water","chili flakes","green onion"],
+    "measures": ["200g","3 tbsp","2 tbsp","1 clove","3 tbsp","1/2 tsp","2 stalks"],
+    "instructions": "Whisk peanut butter, soy sauce, garlic, warm water, and chili flakes into sauce. Toss with cooked hot noodles and green onions."
+  },
+  {
+    "id": "144", "name": "Tuna & Sweetcorn Salad Sandwich", "category": "Sandwich", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["canned tuna","canned sweetcorn","mayonnaise","bread","black pepper"],
+    "measures": ["1 can","1/2 cup","2 tbsp","4 slices","to taste"],
+    "instructions": "Mix drained tuna and sweetcorn with mayonnaise and black pepper. Spread between bread slices for a quick protein lunch."
+  },
+  {
+    "id": "145", "name": "One-Pan Egg & Cheese Toastie", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","bread","butter","cheddar cheese","salt","pepper"],
+    "measures": ["2","2 slices","1 tbsp","2 slices","to taste","to taste"],
+    "instructions": "Whisk eggs, pour into buttered pan. Dip and place bread slices in egg. Flip when set. Fold egg edges over bread, add cheese, fold into sandwich and grill."
+  },
+  {
+    "id": "146", "name": "Microwave Loaded Potato", "category": "Side", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potato","butter","cheddar cheese","yogurt","green onion","salt"],
+    "measures": ["1 large","1 tbsp","50g","2 tbsp","1 stalk","to taste"],
+    "instructions": "Poke holes in potato with a fork, microwave 7 minutes until tender. Slice open, mash inside with butter, cheese, yogurt, green onion, and salt."
+  },
+  {
+    "id": "147", "name": "Sheet Pan Chicken Drumsticks & Veggies", "category": "Chicken", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken drumsticks","potatoes","carrots","oil","paprika","garlic powder","salt"],
+    "measures": ["6","3","2","2 tbsp","1 tsp","1 tsp","to taste"],
+    "instructions": "Toss drumsticks, chopped potatoes, and carrots with oil and spices on a baking tray. Bake at 200°C for 35 minutes."
+  },
+  {
+    "id": "148", "name": "Student Egg Fried Rice", "category": "Rice", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cooked rice","eggs","soy sauce","frozen peas","oil","green onion"],
+    "measures": ["2 cups","2","2 tbsp","1/2 cup","1 tbsp","2 stalks"],
+    "instructions": "Heat oil in pan. Scramble eggs, remove. Fry rice and frozen peas 3 minutes. Add soy sauce and eggs back in, toss and serve hot."
+  },
+  {
+    "id": "149", "name": "3-Ingredient Banana Oat Pancakes", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["banana","eggs","oats","cinnamon","oil"],
+    "measures": ["1 ripe","2","1 cup","1/2 tsp","1 tsp"],
+    "instructions": "Mash banana, whisk with eggs, oats, and cinnamon. Fry spoonfuls in an oiled pan over medium heat for 2 minutes per side."
+  },
+  {
+    "id": "150", "name": "Microwave Scrambled Egg Mug", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","milk","cheddar cheese","salt","pepper","butter"],
+    "measures": ["2","2 tbsp","30g","to taste","to taste","1 tsp"],
+    "instructions": "Whisk eggs, milk, butter, salt, and pepper in a mug. Microwave 45 seconds, stir. Microwave 30 seconds more. Sprinkle cheese on top."
+  },
+  {
+    "id": "151", "name": "One-Pot Taco Rice Bowl", "category": "Beef", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","rice","taco seasoning","canned corn","canned black beans","salsa","cheese"],
+    "measures": ["300g","1 cup","1 packet","1/2 can","1/2 can","1/2 cup","50g"],
+    "instructions": "Brown beef with taco seasoning. Add rice, 2 cups water, corn, beans, and salsa. Cover and simmer 15 minutes. Top with cheese."
+  },
+  {
+    "id": "152", "name": "Garlic Butter White Beans on Toast", "category": "Vegetarian", "area": "British",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["canned white beans","bread","garlic","butter","parsley","salt","pepper"],
+    "measures": ["1 can","2 slices","2 cloves","2 tbsp","1 tbsp","to taste","to taste"],
+    "instructions": "Toast bread. Sauté minced garlic and drained white beans in butter for 3 minutes. Season with salt, pepper, parsley, and spoon over toast."
+  },
+  {
+    "id": "153", "name": "5-Minute Cheesy Quesadilla", "category": "Vegetarian", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour tortillas","cheddar cheese","salsa","butter"],
+    "measures": ["2","100g","2 tbsp","1 tbsp"],
+    "instructions": "Spread cheese and salsa on half a tortilla, fold over. Fry in buttered pan 2 minutes per side until crispy and cheese is melted."
+  },
+  {
+    "id": "154", "name": "Quick Chickpea Salad Bowl", "category": "Salad", "area": "Mediterranean",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["canned chickpeas","cucumber","tomatoes","olive oil","lemon juice","salt","pepper"],
+    "measures": ["1 can","1/2","2","2 tbsp","1 tbsp","to taste","to taste"],
+    "instructions": "Drain and rinse chickpeas. Chop cucumber and tomatoes. Toss together in a bowl with olive oil, lemon juice, salt, and pepper."
+  },
+  {
+    "id": "155", "name": "Sweet Chili Chicken Wrap", "category": "Chicken", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour tortillas","cooked chicken","sweet chili sauce","mayonnaise","lettuce"],
+    "measures": ["2","200g","2 tbsp","1 tbsp","1 cup"],
+    "instructions": "Shred cooked chicken, mix with sweet chili sauce and mayo. Spread on tortilla with lettuce, roll tightly, and cut in half."
+  }
 ]
+
