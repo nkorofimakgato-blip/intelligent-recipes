@@ -1,82 +1,422 @@
 [
   {
-    "id": "1",
-    "name": "Garlic Butter Chicken",
-    "category": "Chicken",
-    "area": "American",
+    "id": "1", "name": "Garlic Butter Chicken", "category": "Chicken", "area": "American",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["chicken breast", "butter", "garlic", "parsley", "salt", "pepper"],
-    "measures": ["500g", "3 tbsp", "6 cloves", "1 bunch", "to taste", "to taste"],
+    "ingredients": ["chicken breast","butter","garlic","parsley","salt","pepper"],
+    "measures": ["500g","3 tbsp","6 cloves","1 bunch","to taste","to taste"],
     "instructions": "Melt butter in a pan over medium heat. Add minced garlic and cook for 1 minute. Season chicken with salt and pepper, add to pan, cook 6-7 minutes per side. Garnish with parsley."
   },
   {
-    "id": "2",
-    "name": "Mediterranean Pasta Salad",
-    "category": "Pasta",
-    "area": "Italian",
+    "id": "2", "name": "Mediterranean Pasta Salad", "category": "Pasta", "area": "Italian",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["farfalle pasta", "mozzarella balls", "baby plum tomatoes", "fresh basil", "olive oil", "green olives", "tuna"],
-    "measures": ["350g", "200g", "250g", "1 bunch", "3 tbsp", "40g", "200g"],
-    "instructions": "Boil salted water and cook pasta for 10 minutes. Meanwhile wash tomatoes, slice olives, tear basil. Combine tomatoes and basil with olive oil. Drain pasta, cool with cold water. Toss everything together with mozzarella and tuna. Rest 30 minutes before serving."
+    "ingredients": ["farfalle pasta","mozzarella","tomatoes","basil","olive oil","olives","tuna"],
+    "measures": ["350g","200g","250g","1 bunch","3 tbsp","40g","200g"],
+    "instructions": "Boil salted water, cook pasta 10 minutes. Wash tomatoes, slice olives, tear basil. Combine tomatoes and basil with olive oil. Drain pasta, cool. Toss everything with mozzarella and tuna. Rest 30 minutes."
   },
   {
-    "id": "3",
-    "name": "Simple Fried Rice",
-    "category": "Rice",
-    "area": "Chinese",
+    "id": "3", "name": "Simple Fried Rice", "category": "Rice", "area": "Chinese",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["cooked rice", "eggs", "soy sauce", "garlic", "green onion", "oil"],
-    "measures": ["3 cups", "2", "2 tbsp", "3 cloves", "3 stalks", "2 tbsp"],
-    "instructions": "Heat oil in a wok. Scramble eggs, remove. Add garlic, then rice. Stir-fry 3 minutes. Add soy sauce, eggs, and green onions. Serve hot."
+    "ingredients": ["rice","eggs","soy sauce","garlic","green onion","oil"],
+    "measures": ["3 cups","2","2 tbsp","3 cloves","3 stalks","2 tbsp"],
+    "instructions": "Heat oil in wok. Scramble eggs, remove. Add garlic, then rice. Stir-fry 3 minutes. Add soy sauce, eggs, green onions. Serve hot."
   },
   {
-    "id": "4",
-    "name": "Tomato Basil Soup",
-    "category": "Soup",
-    "area": "Italian",
+    "id": "4", "name": "Tomato Basil Soup", "category": "Soup", "area": "Italian",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["tomatoes", "onion", "garlic", "vegetable stock", "fresh basil", "olive oil"],
-    "measures": ["1kg", "1", "4 cloves", "500ml", "1 bunch", "2 tbsp"],
+    "ingredients": ["tomatoes","onion","garlic","vegetable stock","basil","olive oil"],
+    "measures": ["1kg","1","4 cloves","500ml","1 bunch","2 tbsp"],
     "instructions": "Sauté onion and garlic in oil. Add chopped tomatoes and stock. Simmer 20 minutes. Blend until smooth. Stir in basil before serving."
   },
   {
-    "id": "5",
-    "name": "Chicken Stir Fry",
-    "category": "Chicken",
-    "area": "Chinese",
+    "id": "5", "name": "Chicken Stir Fry", "category": "Chicken", "area": "Chinese",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["chicken breast", "bell pepper", "broccoli", "soy sauce", "ginger", "garlic", "oil"],
-    "measures": ["500g", "1", "1 head", "3 tbsp", "1 inch", "3 cloves", "2 tbsp"],
-    "instructions": "Slice chicken and vegetables. Heat oil in wok. Cook chicken until golden, remove. Stir-fry vegetables 3 minutes. Add ginger, garlic, soy sauce. Return chicken, toss and serve."
+    "ingredients": ["chicken breast","bell pepper","broccoli","soy sauce","ginger","garlic","oil"],
+    "measures": ["500g","1","1 head","3 tbsp","1 inch","3 cloves","2 tbsp"],
+    "instructions": "Slice chicken and vegetables. Heat oil in wok. Cook chicken until golden, remove. Stir-fry vegetables 3 minutes. Add ginger, garlic, soy sauce. Return chicken, toss, serve."
   },
   {
-    "id": "6",
-    "name": "Cheesy Omelette",
-    "category": "Breakfast",
-    "area": "French",
+    "id": "6", "name": "Cheesy Omelette", "category": "Breakfast", "area": "French",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["eggs", "cheese", "butter", "salt", "pepper"],
-    "measures": ["3", "50g", "1 tbsp", "to taste", "to taste"],
+    "ingredients": ["eggs","cheese","butter","salt","pepper"],
+    "measures": ["3","50g","1 tbsp","to taste","to taste"],
     "instructions": "Whisk eggs with salt and pepper. Melt butter in a non-stick pan. Pour in eggs, cook until almost set. Add cheese, fold in half. Serve immediately."
   },
   {
-    "id": "7",
-    "name": "Pancakes",
-    "category": "Breakfast",
-    "area": "American",
+    "id": "7", "name": "Pancakes", "category": "Breakfast", "area": "American",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder", "butter"],
-    "measures": ["200g", "300ml", "2", "2 tbsp", "2 tsp", "2 tbsp"],
-    "instructions": "Mix dry ingredients. Whisk in milk and eggs. Melt butter in pan. Pour 1/4 cup batter per pancake. Cook until bubbles form, flip, cook 1 more minute."
+    "ingredients": ["flour","milk","eggs","sugar","baking powder","butter"],
+    "measures": ["200g","300ml","2","2 tbsp","2 tsp","2 tbsp"],
+    "instructions": "Mix dry ingredients. Whisk in milk and eggs. Melt butter in pan. Pour 1/4 cup batter per pancake. Cook until bubbles form, flip, cook 1 minute."
   },
   {
-    "id": "8",
-    "name": "Beef Tacos",
-    "category": "Beef",
-    "area": "Mexican",
+    "id": "8", "name": "Beef Tacos", "category": "Beef", "area": "Mexican",
     "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-    "ingredients": ["ground beef", "taco shells", "onion", "garlic", "cumin", "paprika", "cheese", "lettuce"],
-    "measures": ["500g", "8", "1", "3 cloves", "1 tsp", "1 tsp", "100g", "1 head"],
+    "ingredients": ["ground beef","taco shells","onion","garlic","cumin","paprika","cheese","lettuce"],
+    "measures": ["500g","8","1","3 cloves","1 tsp","1 tsp","100g","1 head"],
     "instructions": "Brown beef with onion and garlic. Add cumin and paprika. Warm taco shells. Fill with beef, top with cheese and lettuce."
+  },
+  {
+    "id": "9", "name": "Spaghetti Bolognese", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["spaghetti","ground beef","onion","garlic","tomatoes","olive oil","basil"],
+    "measures": ["400g","500g","1","4 cloves","800g","2 tbsp","1 bunch"],
+    "instructions": "Brown beef with onion and garlic. Add canned tomatoes, simmer 30 minutes. Cook spaghetti al dente. Serve sauce over pasta, top with basil."
+  },
+  {
+    "id": "10", "name": "Chicken Caesar Salad", "category": "Salad", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","lettuce","parmesan","croutons","caesar dressing","olive oil"],
+    "measures": ["400g","1 head","50g","1 cup","3 tbsp","2 tbsp"],
+    "instructions": "Grill chicken and slice. Toss lettuce with dressing. Add chicken, croutons, and parmesan. Serve immediately."
+  },
+  {
+    "id": "11", "name": "Vegetable Curry", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potato","carrot","peas","onion","garlic","ginger","curry powder","coconut milk"],
+    "measures": ["2","2","1 cup","1","3 cloves","1 inch","2 tbsp","400ml"],
+    "instructions": "Sauté onion, garlic, ginger. Add curry powder and vegetables. Pour coconut milk, simmer 20 minutes until tender. Serve with rice."
+  },
+  {
+    "id": "12", "name": "Grilled Cheese Sandwich", "category": "Sandwich", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bread","cheese","butter"],
+    "measures": ["2 slices","2 slices","1 tbsp"],
+    "instructions": "Butter bread on outside. Place cheese between slices. Grill in pan until golden on both sides, cheese melted."
+  },
+  {
+    "id": "13", "name": "Shakshuka", "category": "Breakfast", "area": "Middle Eastern",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","tomatoes","onion","bell pepper","garlic","cumin","paprika","olive oil"],
+    "measures": ["4","800g","1","1","3 cloves","1 tsp","1 tsp","2 tbsp"],
+    "instructions": "Sauté onion, pepper, garlic. Add tomatoes and spices, simmer 10 minutes. Make wells, crack eggs in. Cover and cook until whites are set."
+  },
+  {
+    "id": "14", "name": "Beef Stew", "category": "Beef", "area": "British",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","potato","carrot","onion","garlic","beef stock","tomato paste","flour"],
+    "measures": ["1kg","4","3","1","4 cloves","1L","2 tbsp","2 tbsp"],
+    "instructions": "Brown beef in batches. Sauté onion and garlic. Add flour, stock, tomato paste. Simmer 90 minutes. Add vegetables, cook 30 more minutes."
+  },
+  {
+    "id": "15", "name": "Mushroom Risotto", "category": "Rice", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice","mushroom","onion","garlic","vegetable stock","parmesan","butter","white wine"],
+    "measures": ["300g","300g","1","2 cloves","1L","80g","3 tbsp","150ml"],
+    "instructions": "Sauté onion and garlic. Add rice, toast 1 minute. Add wine, stir until absorbed. Add stock one ladle at a time, stirring. Stir in mushrooms, butter, parmesan."
+  },
+  {
+    "id": "16", "name": "Chicken Noodle Soup", "category": "Soup", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","noodles","carrot","celery","onion","chicken stock","parsley"],
+    "measures": ["400g","200g","2","2","1","1L","1 bunch"],
+    "instructions": "Simmer chicken in stock 20 minutes. Remove and shred. Add vegetables, cook 10 minutes. Add noodles, cook 5 minutes. Return chicken, garnish with parsley."
+  },
+  {
+    "id": "17", "name": "Margherita Pizza", "category": "Pizza", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","yeast","tomatoes","mozzarella","basil","olive oil","salt"],
+    "measures": ["500g","7g","400g","250g","1 bunch","3 tbsp","1 tsp"],
+    "instructions": "Mix flour, yeast, water, salt into dough. Rest 1 hour. Top with tomatoes, mozzarella. Bake 250C for 10 minutes. Add basil and olive oil."
+  },
+  {
+    "id": "18", "name": "Beef Burger", "category": "Beef", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","burger buns","cheese","lettuce","tomato","onion","ketchup"],
+    "measures": ["500g","4","4 slices","1 head","1","1","3 tbsp"],
+    "instructions": "Form beef into patties, season. Grill 4 minutes per side. Toast buns. Assemble with cheese, lettuce, tomato, onion, ketchup."
+  },
+  {
+    "id": "19", "name": "Pad Thai", "category": "Noodles", "area": "Thai",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice noodles","shrimp","eggs","bean sprouts","peanuts","garlic","soy sauce","lime"],
+    "measures": ["200g","300g","2","1 cup","1/2 cup","3 cloves","3 tbsp","1"],
+    "instructions": "Soak noodles 20 minutes. Stir-fry shrimp, remove. Scramble eggs. Add noodles, soy sauce, shrimp. Toss with sprouts, peanuts, lime."
+  },
+  {
+    "id": "20", "name": "French Toast", "category": "Breakfast", "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bread","eggs","milk","cinnamon","sugar","butter"],
+    "measures": ["6 slices","3","200ml","1 tsp","2 tbsp","2 tbsp"],
+    "instructions": "Whisk eggs, milk, cinnamon, sugar. Dip bread in mixture. Melt butter in pan. Cook bread 2 minutes per side. Serve with syrup."
+  },
+  {
+    "id": "21", "name": "Caprese Salad", "category": "Salad", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["mozzarella","tomatoes","basil","olive oil","salt","pepper"],
+    "measures": ["250g","3","1 bunch","3 tbsp","to taste","to taste"],
+    "instructions": "Slice mozzarella and tomatoes. Layer alternating on plate. Add basil leaves. Drizzle olive oil, season with salt and pepper."
+  },
+  {
+    "id": "22", "name": "Chicken Curry", "category": "Curry", "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","onion","garlic","ginger","tomatoes","curry powder","coconut milk","rice"],
+    "measures": ["600g","2","4 cloves","1 inch","400g","3 tbsp","400ml","2 cups"],
+    "instructions": "Sauté onion, garlic, ginger. Add curry powder and chicken, brown. Add tomatoes, simmer 10 minutes. Add coconut milk, cook 15 minutes. Serve over rice."
+  },
+  {
+    "id": "23", "name": "Egg Fried Rice", "category": "Rice", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice","eggs","green onion","soy sauce","sesame oil","garlic","peas","carrot"],
+    "measures": ["3 cups","3","3 stalks","2 tbsp","1 tsp","2 cloves","1 cup","1"],
+    "instructions": "Heat sesame oil in wok. Scramble eggs, remove. Add garlic, rice, vegetables. Stir-fry 3 minutes. Add soy sauce, eggs, green onions."
+  },
+  {
+    "id": "24", "name": "Greek Salad", "category": "Salad", "area": "Greek",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cucumber","tomatoes","olives","feta","onion","olive oil","oregano"],
+    "measures": ["1","4","150g","200g","1","3 tbsp","1 tsp"],
+    "instructions": "Chop cucumber, tomatoes, onion. Combine with olives. Crumble feta on top. Drizzle olive oil, sprinkle oregano."
+  },
+  {
+    "id": "25", "name": "Mashed Potatoes", "category": "Side", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["potato","butter","milk","salt","pepper"],
+    "measures": ["1kg","4 tbsp","150ml","to taste","to taste"],
+    "instructions": "Boil peeled potatoes until tender, 20 minutes. Drain, mash. Add butter and milk, mash until smooth. Season with salt and pepper."
+  },
+  {
+    "id": "26", "name": "Chocolate Chip Cookies", "category": "Dessert", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour","butter","sugar","brown sugar","eggs","chocolate chips","vanilla","baking soda"],
+    "measures": ["250g","200g","100g","150g","2","200g","1 tsp","1 tsp"],
+    "instructions": "Cream butter and sugars. Beat in eggs and vanilla. Mix in flour and baking soda. Fold in chips. Bake at 180C for 10-12 minutes."
+  },
+  {
+    "id": "27", "name": "Banana Bread", "category": "Dessert", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["banana","flour","sugar","butter","eggs","baking soda","vanilla","salt"],
+    "measures": ["3 ripe","250g","150g","100g","2","1 tsp","1 tsp","1/2 tsp"],
+    "instructions": "Mash bananas. Mix with melted butter, sugar, eggs, vanilla. Fold in dry ingredients. Pour into loaf pan, bake 180C for 55 minutes."
+  },
+  {
+    "id": "28", "name": "Tuna Pasta", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pasta","tuna","tomatoes","garlic","olive oil","parsley","chili flakes"],
+    "measures": ["400g","200g","400g","4 cloves","3 tbsp","1 bunch","1 tsp"],
+    "instructions": "Cook pasta. Sauté garlic and chili in oil. Add tomatoes, simmer 5 minutes. Add tuna and pasta, toss. Garnish with parsley."
+  },
+  {
+    "id": "29", "name": "Chicken Quesadilla", "category": "Mexican", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","tortillas","cheese","bell pepper","onion","cumin","oil"],
+    "measures": ["400g","4","200g","1","1","1 tsp","2 tbsp"],
+    "instructions": "Cook diced chicken with cumin and vegetables. Place chicken and cheese on half a tortilla. Fold over. Grill in pan until golden on both sides."
+  },
+  {
+    "id": "30", "name": "Creamy Tomato Pasta", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pasta","tomatoes","cream","garlic","onion","basil","parmesan","olive oil"],
+    "measures": ["400g","400g","200ml","3 cloves","1","1 bunch","50g","2 tbsp"],
+    "instructions": "Sauté onion and garlic. Add tomatoes, simmer 15 minutes. Add cream and parmesan. Toss with cooked pasta and basil."
+  },
+  {
+    "id": "31", "name": "Overnight Oats", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["oats","milk","yogurt","honey","banana","berries"],
+    "measures": ["1 cup","1 cup","1/2 cup","2 tbsp","1","1 cup"],
+    "instructions": "Combine oats, milk, yogurt, honey in jar. Refrigerate overnight. Top with banana and berries before serving."
+  },
+  {
+    "id": "32", "name": "Beef Stir Fry", "category": "Beef", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["beef","bell pepper","broccoli","soy sauce","ginger","garlic","oil","rice"],
+    "measures": ["500g","1","1 head","4 tbsp","1 inch","3 cloves","2 tbsp","2 cups"],
+    "instructions": "Slice beef thin. Marinate in soy sauce 10 minutes. Stir-fry beef, remove. Stir-fry vegetables, add ginger and garlic. Return beef, serve over rice."
+  },
+  {
+    "id": "33", "name": "Hummus", "category": "Snack", "area": "Middle Eastern",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chickpeas","tahini","garlic","lemon","olive oil","cumin","salt"],
+    "measures": ["400g","3 tbsp","2 cloves","1","3 tbsp","1 tsp","to taste"],
+    "instructions": "Blend chickpeas, tahini, garlic, lemon juice. Add water to reach smooth texture. Drizzle olive oil, sprinkle cumin."
+  },
+  {
+    "id": "34", "name": "Fish and Chips", "category": "Fish", "area": "British",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["fish","potato","flour","beer","oil","salt","pepper"],
+    "measures": ["4 fillets","1kg","200g","200ml","1L","to taste","to taste"],
+    "instructions": "Cut potatoes into chips, fry 5 minutes, drain. Mix flour and beer into batter. Dip fish, fry until golden. Serve with chips."
+  },
+  {
+    "id": "35", "name": "Vegetable Soup", "category": "Soup", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["carrot","celery","onion","potato","tomatoes","vegetable stock","garlic","thyme"],
+    "measures": ["3","3","1","3","400g","1.5L","3 cloves","1 tsp"],
+    "instructions": "Sauté onion, carrot, celery, garlic. Add potatoes, tomatoes, stock, thyme. Simmer 30 minutes. Season and serve."
+  },
+  {
+    "id": "36", "name": "Chicken Wings", "category": "Chicken", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken wings","soy sauce","honey","garlic","ginger","sesame seeds","oil"],
+    "measures": ["1kg","3 tbsp","3 tbsp","4 cloves","1 inch","1 tbsp","2 tbsp"],
+    "instructions": "Marinate wings in soy, honey, garlic, ginger 30 minutes. Bake at 200C for 40 minutes, turning once. Sprinkle sesame seeds."
+  },
+  {
+    "id": "37", "name": "Egg Salad Sandwich", "category": "Sandwich", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","mayonnaise","mustard","bread","green onion","salt","pepper"],
+    "measures": ["4","3 tbsp","1 tsp","8 slices","2 stalks","to taste","to taste"],
+    "instructions": "Boil eggs 10 minutes, cool, peel, chop. Mix with mayo, mustard, green onion, salt, pepper. Spread on bread, close sandwiches."
+  },
+  {
+    "id": "38", "name": "Lentil Soup", "category": "Soup", "area": "Middle Eastern",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["lentils","carrot","onion","celery","garlic","vegetable stock","cumin","olive oil"],
+    "measures": ["2 cups","2","1","2","4 cloves","1.5L","1 tsp","2 tbsp"],
+    "instructions": "Sauté onion, carrot, celery, garlic. Add lentils, stock, cumin. Simmer 30 minutes until lentils tender. Blend partially for creamy texture."
+  },
+  {
+    "id": "39", "name": "Peanut Butter Cookies", "category": "Dessert", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["peanut butter","sugar","egg","flour","baking soda","vanilla"],
+    "measures": ["1 cup","1 cup","1","1 cup","1 tsp","1 tsp"],
+    "instructions": "Mix peanut butter, sugar, egg. Add flour, baking soda, vanilla. Roll into balls, press with fork. Bake 180C for 10 minutes."
+  },
+  {
+    "id": "40", "name": "Chicken Fajitas", "category": "Mexican", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","bell pepper","onion","tortillas","cumin","paprika","lime","oil"],
+    "measures": ["500g","2","2","6","1 tsp","1 tsp","1","2 tbsp"],
+    "instructions": "Slice chicken and vegetables. Sauté chicken with spices. Add vegetables, cook 5 minutes. Squeeze lime. Serve in warm tortillas."
+  },
+  {
+    "id": "41", "name": "Vegetable Fried Rice", "category": "Rice", "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["rice","carrot","peas","corn","green onion","soy sauce","garlic","sesame oil"],
+    "measures": ["3 cups","1","1 cup","1 cup","3 stalks","3 tbsp","3 cloves","1 tsp"],
+    "instructions": "Heat sesame oil. Add garlic, rice, vegetables. Stir-fry 4 minutes. Add soy sauce. Garnish with green onions."
+  },
+  {
+    "id": "42", "name": "Meatballs", "category": "Beef", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","breadcrumbs","eggs","parmesan","garlic","parsley","tomatoes","onion"],
+    "measures": ["500g","100g","2","50g","3 cloves","1 bunch","800g","1"],
+    "instructions": "Mix beef, breadcrumbs, eggs, parmesan, garlic, parsley. Roll into balls. Brown in pan. Simmer in tomato sauce 20 minutes."
+  },
+  {
+    "id": "43", "name": "Avocado Toast", "category": "Breakfast", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["avocado","bread","lemon","chili flakes","olive oil","salt","pepper"],
+    "measures": ["1","2 slices","1/2","1 pinch","1 tbsp","to taste","to taste"],
+    "instructions": "Toast bread. Mash avocado with lemon, salt, pepper. Spread on toast. Drizzle olive oil, sprinkle chili flakes."
+  },
+  {
+    "id": "44", "name": "Roasted Vegetables", "category": "Side", "area": "Mediterranean",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["carrot","zucchini","bell pepper","onion","olive oil","thyme","salt","pepper"],
+    "measures": ["3","2","2","1","3 tbsp","1 tsp","to taste","to taste"],
+    "instructions": "Chop vegetables into chunks. Toss with olive oil, salt, pepper, thyme. Roast at 200C for 30 minutes, stirring halfway."
+  },
+  {
+    "id": "45", "name": "Chili con Carne", "category": "Beef", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","kidney beans","tomatoes","onion","garlic","cumin","chili powder","paprika"],
+    "measures": ["500g","400g","800g","1","3 cloves","2 tsp","2 tsp","1 tsp"],
+    "instructions": "Brown beef with onion and garlic. Add spices. Add tomatoes and beans. Simmer 30 minutes. Serve with rice or bread."
+  },
+  {
+    "id": "46", "name": "Tuna Melt", "category": "Sandwich", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["tuna","bread","cheese","mayonnaise","onion","butter"],
+    "measures": ["200g","4 slices","4 slices","3 tbsp","1/2","2 tbsp"],
+    "instructions": "Mix tuna with mayo and onion. Butter bread. Place tuna and cheese between slices. Grill until golden."
+  },
+  {
+    "id": "47", "name": "Chicken Enchiladas", "category": "Mexican", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","tortillas","cheese","tomatoes","onion","garlic","cumin","chili powder"],
+    "measures": ["500g","8","300g","800g","1","3 cloves","1 tsp","1 tsp"],
+    "instructions": "Cook chicken with spices, shred. Roll in tortillas with cheese. Top with tomato sauce and cheese. Bake 180C for 20 minutes."
+  },
+  {
+    "id": "48", "name": "Garlic Bread", "category": "Side", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bread","butter","garlic","parsley"],
+    "measures": ["1 loaf","100g","6 cloves","1 bunch"],
+    "instructions": "Mix softened butter with minced garlic and parsley. Slice bread, spread mixture. Bake 200C for 10 minutes until golden."
+  },
+  {
+    "id": "49", "name": "Chicken Alfredo", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast","fettuccine","cream","parmesan","butter","garlic","parsley"],
+    "measures": ["500g","400g","300ml","100g","3 tbsp","4 cloves","1 bunch"],
+    "instructions": "Cook fettuccine. Sauté chicken in butter, remove. Add garlic, cream, parmesan. Toss with pasta and chicken. Garnish with parsley."
+  },
+  {
+    "id": "50", "name": "Vegetable Omelette", "category": "Breakfast", "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","bell pepper","onion","spinach","cheese","butter","salt","pepper"],
+    "measures": ["3","1","1/2","2 cups","50g","1 tbsp","to taste","to taste"],
+    "instructions": "Sauté vegetables in butter. Whisk eggs, pour over. Cook until set. Add cheese, fold. Serve hot."
+  },
+  {
+    "id": "51", "name": "Beef Burrito", "category": "Mexican", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef","tortillas","rice","beans","cheese","salsa","cumin"],
+    "measures": ["500g","4","2 cups","400g","200g","1 cup","1 tsp"],
+    "instructions": "Cook beef with cumin. Layer rice, beans, beef, cheese, salsa on tortilla. Roll tightly. Grill 2 minutes per side."
+  },
+  {
+    "id": "52", "name": "Cauliflower Soup", "category": "Soup", "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cauliflower","onion","garlic","vegetable stock","cream","butter","nutmeg"],
+    "measures": ["1 head","1","3 cloves","1L","200ml","2 tbsp","1 pinch"],
+    "instructions": "Sauté onion and garlic in butter. Add cauliflower and stock. Simmer 20 minutes. Blend, add cream and nutmeg."
+  },
+  {
+    "id": "53", "name": "Breakfast Burrito", "category": "Breakfast", "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs","tortillas","cheese","bacon","potato","salsa"],
+    "measures": ["4","4","200g","6 slices","2","1/2 cup"],
+    "instructions": "Cook bacon and diced potatoes. Scramble eggs. Warm tortillas. Fill with eggs, bacon, potatoes, cheese, salsa. Roll and serve."
+  },
+  {
+    "id": "54", "name": "Baked Salmon", "category": "Fish", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["salmon","lemon","garlic","olive oil","parsley","salt","pepper"],
+    "measures": ["4 fillets","1","3 cloves","3 tbsp","1 bunch","to taste","to taste"],
+    "instructions": "Place salmon on baking sheet. Drizzle oil, add garlic, lemon slices. Bake 200C for 15 minutes. Garnish with parsley."
+  },
+  {
+    "id": "55", "name": "Pesto Pasta", "category": "Pasta", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["pasta","basil","pine nuts","parmesan","garlic","olive oil"],
+    "measures": ["400g","2 cups","50g","80g","3 cloves","150ml"],
+    "instructions": "Blend basil, pine nuts, parmesan, garlic, oil into pesto. Cook pasta. Toss hot pasta with pesto. Serve with extra parmesan."
+  },
+  {
+    "id": "56", "name": "Chicken Soup", "category": "Soup", "area": "Jewish",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken","carrot","celery","onion","garlic","chicken stock","parsley","dill"],
+    "measures": ["1 whole","4","4","1","3 cloves","2L","1 bunch","1 bunch"],
+    "instructions": "Place chicken in pot with water, stock, vegetables. Simmer 2 hours. Remove chicken, shred. Return to pot with herbs. Serve hot."
+  },
+  {
+    "id": "57", "name": "Veggie Burger", "category": "Vegetarian", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["black beans","breadcrumbs","onion","garlic","cumin","buns","lettuce","tomato"],
+    "measures": ["400g","100g","1","3 cloves","1 tsp","4","1 head","1"],
+    "instructions": "Mash beans with onion, garlic, breadcrumbs, cumin. Form patties. Pan-fry 4 minutes per side. Serve on buns with lettuce and tomato."
+  },
+  {
+    "id": "58", "name": "Shrimp Scampi", "category": "Seafood", "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["shrimp","linguine","garlic","butter","lemon","parsley","white wine","chili flakes"],
+    "measures": ["500g","400g","6 cloves","100g","1","1 bunch","150ml","1 pinch"],
+    "instructions": "Cook linguine. Sauté garlic and chili in butter. Add shrimp, cook 2 minutes. Add wine, lemon juice. Toss with pasta, parsley."
+  },
+  {
+    "id": "59", "name": "Chocolate Brownies", "category": "Dessert", "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chocolate","butter","sugar","eggs","flour","cocoa powder","vanilla","salt"],
+    "measures": ["200g","200g","250g","4","150g","50g","1 tsp","1/2 tsp"],
+    "instructions": "Melt chocolate and butter. Whisk in sugar, eggs, vanilla. Fold in flour, cocoa, salt. Bake 180C for 25 minutes. Cool before cutting."
+  },
+  {
+    "id": "60", "name": "Stuffed Bell Peppers", "category": "Vegetarian", "area": "Mediterranean",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["bell pepper","rice","tomatoes","onion","garlic","cheese","olive oil","parsley"],
+    "measures": ["4","2 cups","400g","1","3 cloves","100g","2 tbsp","1 bunch"],
+    "instructions": "Cook rice with onion, garlic, tomatoes. Mix with cheese and parsley. Fill peppers. Bake 180C for 30 minutes."
   }
 ]

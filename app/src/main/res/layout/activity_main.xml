@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="#F9FAFB">
+    android:background="@color/bg_surface">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,24 +12,26 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <!-- Big friendly title -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/app_title"
-            android:textSize="32sp"
+            android:text="🍳  Intelligent Recipes"
+            android:textSize="28sp"
             android:textStyle="bold"
-            android:textColor="#111827"
-            android:layout_marginTop="16dp" />
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="12dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/subtitle"
-            android:textSize="16sp"
-            android:textColor="#6B7280"
+            android:text="Tell me what's in your kitchen"
+            android:textSize="15sp"
+            android:textColor="@color/text_secondary"
             android:layout_marginTop="4dp"
-            android:layout_marginBottom="24dp" />
+            android:layout_marginBottom="28dp" />
 
+        <!-- Input row -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,10 +44,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/input_hint"
-                android:padding="14dp"
-                android:background="@android:drawable/edit_text"
+                android:padding="16dp"
+                android:background="@drawable/input_bg"
                 android:textSize="16sp"
-                android:textColor="#111827"
+                android:textColor="@color/text_primary"
                 android:textColorHint="#9CA3AF"
                 android:inputType="text"
                 android:imeOptions="actionDone"
@@ -54,23 +56,26 @@
 
             <ImageButton
                 android:id="@+id/cameraButton"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginStart="6dp"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="8dp"
                 android:src="@android:drawable/ic_menu_camera"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/icon_button_bg"
                 android:contentDescription="@string/camera"
-                android:padding="8dp" />
-
-            <Button
-                android:id="@+id/addButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:text="@string/add"
-                android:backgroundTint="#111827"
-                android:textColor="#FFFFFF" />
+                android:padding="12dp"
+                app:tint="@color/brand_primary" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:backgroundTint="@color/brand_primary"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/emptyMessage"
@@ -78,15 +83,15 @@
             android:layout_height="wrap_content"
             android:text="@string/empty_message"
             android:textSize="14sp"
-            android:textColor="#6B7280"
-            android:layout_marginTop="20dp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="24dp"
             android:gravity="center" />
 
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/chipGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             app:chipSpacingHorizontal="8dp"
             app:chipSpacingVertical="8dp" />
 
@@ -94,38 +99,40 @@
             android:id="@+id/clearAllButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:layout_gravity="end"
             android:text="@string/clear_all"
             android:textSize="12sp"
             android:minHeight="0dp"
             android:minWidth="0dp"
             android:padding="8dp"
-            android:backgroundTint="#FFFFFF"
-            android:textColor="#374151"
+            android:backgroundTint="#00000000"
+            android:textColor="@color/text_secondary"
             android:stateListAnimator="@null" />
 
         <Button
             android:id="@+id/findRecipesButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:layout_marginTop="32dp"
             android:text="@string/find_recipes"
-            android:textSize="16sp"
-            android:padding="16dp"
-            android:backgroundTint="#111827"
-            android:textColor="#FFFFFF" />
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/brand_primary"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/surpriseMeButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
             android:text="@string/surprise_me"
-            android:textSize="16sp"
-            android:padding="16dp"
-            android:backgroundTint="#E5E7EB"
-            android:textColor="#111827" />
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:backgroundTint="@color/bg_card"
+            android:textColor="@color/brand_primary"
+            android:stateListAnimator="@null" />
 
     </LinearLayout>
 </ScrollView>

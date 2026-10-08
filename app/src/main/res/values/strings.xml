@@ -1,4 +1,15 @@
 <resources>
+    <string name="analyzing">Analyzing…</string>
+    <string name="capture_failed">Capture failed</string>
+    <string name="no_match">No match — try again</string>
+    <string name="analysis_failed">Analysis failed</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="couldnt_start_camera">Couldn\'t start camera</string>
+    <string name="point_at_ingredient">Point at an ingredient</string>
+    <string name="couldnt_identify">Couldn\'t identify an ingredient. Try a clearer photo.</string>
+    <string name="im_not_sure">I\'m not sure — what is it?</string>
+    <string name="or_type_your_own">Or type your own:</string>
+    <string name="type_an_ingredient">Type an ingredient…</string>
     <string name="app_name">Intelligent Recipes</string>
     <string name="app_title">Intelligent Recipes</string>
     <string name="subtitle">What\'s in your kitchen?</string>
