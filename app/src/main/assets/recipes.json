@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Garlic Butter Chicken",
+    "category": "Chicken",
+    "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast", "butter", "garlic", "parsley", "salt", "pepper"],
+    "measures": ["500g", "3 tbsp", "6 cloves", "1 bunch", "to taste", "to taste"],
+    "instructions": "Melt butter in a pan over medium heat. Add minced garlic and cook for 1 minute. Season chicken with salt and pepper, add to pan, cook 6-7 minutes per side. Garnish with parsley."
+  },
+  {
+    "id": "2",
+    "name": "Mediterranean Pasta Salad",
+    "category": "Pasta",
+    "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["farfalle pasta", "mozzarella balls", "baby plum tomatoes", "fresh basil", "olive oil", "green olives", "tuna"],
+    "measures": ["350g", "200g", "250g", "1 bunch", "3 tbsp", "40g", "200g"],
+    "instructions": "Boil salted water and cook pasta for 10 minutes. Meanwhile wash tomatoes, slice olives, tear basil. Combine tomatoes and basil with olive oil. Drain pasta, cool with cold water. Toss everything together with mozzarella and tuna. Rest 30 minutes before serving."
+  },
+  {
+    "id": "3",
+    "name": "Simple Fried Rice",
+    "category": "Rice",
+    "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["cooked rice", "eggs", "soy sauce", "garlic", "green onion", "oil"],
+    "measures": ["3 cups", "2", "2 tbsp", "3 cloves", "3 stalks", "2 tbsp"],
+    "instructions": "Heat oil in a wok. Scramble eggs, remove. Add garlic, then rice. Stir-fry 3 minutes. Add soy sauce, eggs, and green onions. Serve hot."
+  },
+  {
+    "id": "4",
+    "name": "Tomato Basil Soup",
+    "category": "Soup",
+    "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["tomatoes", "onion", "garlic", "vegetable stock", "fresh basil", "olive oil"],
+    "measures": ["1kg", "1", "4 cloves", "500ml", "1 bunch", "2 tbsp"],
+    "instructions": "Sauté onion and garlic in oil. Add chopped tomatoes and stock. Simmer 20 minutes. Blend until smooth. Stir in basil before serving."
+  },
+  {
+    "id": "5",
+    "name": "Chicken Stir Fry",
+    "category": "Chicken",
+    "area": "Chinese",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["chicken breast", "bell pepper", "broccoli", "soy sauce", "ginger", "garlic", "oil"],
+    "measures": ["500g", "1", "1 head", "3 tbsp", "1 inch", "3 cloves", "2 tbsp"],
+    "instructions": "Slice chicken and vegetables. Heat oil in wok. Cook chicken until golden, remove. Stir-fry vegetables 3 minutes. Add ginger, garlic, soy sauce. Return chicken, toss and serve."
+  },
+  {
+    "id": "6",
+    "name": "Cheesy Omelette",
+    "category": "Breakfast",
+    "area": "French",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["eggs", "cheese", "butter", "salt", "pepper"],
+    "measures": ["3", "50g", "1 tbsp", "to taste", "to taste"],
+    "instructions": "Whisk eggs with salt and pepper. Melt butter in a non-stick pan. Pour in eggs, cook until almost set. Add cheese, fold in half. Serve immediately."
+  },
+  {
+    "id": "7",
+    "name": "Pancakes",
+    "category": "Breakfast",
+    "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder", "butter"],
+    "measures": ["200g", "300ml", "2", "2 tbsp", "2 tsp", "2 tbsp"],
+    "instructions": "Mix dry ingredients. Whisk in milk and eggs. Melt butter in pan. Pour 1/4 cup batter per pancake. Cook until bubbles form, flip, cook 1 more minute."
+  },
+  {
+    "id": "8",
+    "name": "Beef Tacos",
+    "category": "Beef",
+    "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+    "ingredients": ["ground beef", "taco shells", "onion", "garlic", "cumin", "paprika", "cheese", "lettuce"],
+    "measures": ["500g", "8", "1", "3 cloves", "1 tsp", "1 tsp", "100g", "1 head"],
+    "instructions": "Brown beef with onion and garlic. Add cumin and paprika. Warm taco shells. Fill with beef, top with cheese and lettuce."
+  }
+]
