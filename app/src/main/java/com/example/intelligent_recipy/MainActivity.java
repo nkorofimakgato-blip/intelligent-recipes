@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,11 +21,13 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+    private static final int REQUEST_CAMERA = 2001;
 
     private EditText ingredientInput;
     private Button addButton;
     private Button findRecipesButton;
     private Button surpriseMeButton;
+    private ImageButton cameraButton;
     private ChipGroup chipGroup;
     private TextView emptyMessage;
 
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         addButton          = findViewById(R.id.addButton);
         findRecipesButton  = findViewById(R.id.findRecipesButton);
         surpriseMeButton   = findViewById(R.id.surpriseMeButton);
+        cameraButton       = findViewById(R.id.cameraButton);
         chipGroup          = findViewById(R.id.chipGroup);
         emptyMessage       = findViewById(R.id.emptyMessage);
 
@@ -49,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
 
         updateEmptyMessage();
 
-        // Clear all button
         findViewById(R.id.clearAllButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,6 +72,16 @@ public class MainActivity extends AppCompatActivity {
 
         surpriseMeButton.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) { findRecipes(true); }
+        });
+
+        // ▼ Camera button
+        cameraButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "Camera button tapped");
+                Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+                startActivityForResult(intent, REQUEST_CAMERA);
+            }
         });
     }
 
@@ -126,5 +139,29 @@ public class MainActivity extends AppCompatActivity {
                 ResultsActivity.EXTRA_PANTRY,
                 new ArrayList<>(pantry));
         startActivity(intent);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_CAMERA
+                && resultCode == RESULT_OK
+                && data != null) {
+
+            String ingredient = data.getStringExtra(CameraActivity.EXTRA_RESULT);
+            if (ingredient != null && !ingredient.trim().isEmpty()) {
+                String normalized = ingredient.toLowerCase().trim();
+                if (pantry.contains(normalized)) {
+                    Toast.makeText(this,
+                            "\"" + normalized + "\" is already in your list",
+                            Toast.LENGTH_SHORT).show();
+                } else {
+                    pantry.add(normalized);
+                    addChip(normalized);
+                    updateEmptyMessage();
+                }
+            }
+        }
     }
 }

@@ -46,4 +46,12 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    // Camera + ML Kit
+    implementation("androidx.camera:camera-core:1.4.0")
+    implementation("androidx.camera:camera-camera2:1.4.0")
+    implementation("androidx.camera:camera-lifecycle:1.4.0")
+    implementation("androidx.camera:camera-view:1.4.0")
+
+    implementation("com.google.mlkit:image-labeling:17.0.9")
 }

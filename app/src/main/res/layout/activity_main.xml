@@ -52,11 +52,21 @@
                 android:autofillHints=""
                 android:maxLines="1" />
 
+            <ImageButton
+                android:id="@+id/cameraButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="6dp"
+                android:src="@android:drawable/ic_menu_camera"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/camera"
+                android:padding="8dp" />
+
             <Button
                 android:id="@+id/addButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="6dp"
                 android:text="@string/add"
                 android:backgroundTint="#111827"
                 android:textColor="#FFFFFF" />
