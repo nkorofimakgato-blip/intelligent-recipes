@@ -91,10 +91,17 @@ public class ResultsActivity extends AppCompatActivity {
                                     new RecipeAdapter.OnRecipeClickListener() {
                                         @Override
                                         public void onRecipeClick(Recipe recipe) {
-                                            android.widget.Toast.makeText(
-                                                    ResultsActivity.this,
-                                                    "Tapped: " + recipe.getName(),
-                                                    android.widget.Toast.LENGTH_SHORT).show();
+                                            android.content.Intent intent =
+                                                    new android.content.Intent(
+                                                            ResultsActivity.this,
+                                                            RecipeDetailActivity.class);
+                                            intent.putExtra(
+                                                    RecipeDetailActivity.EXTRA_RECIPE_ID,
+                                                    recipe.getId());
+                                            intent.putStringArrayListExtra(
+                                                    RecipeDetailActivity.EXTRA_PANTRY,
+                                                    finalPantry);
+                                            startActivity(intent);
                                         }
                                     });
                             recycler.setAdapter(adapter);

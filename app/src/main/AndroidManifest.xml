@@ -26,6 +26,9 @@
         <activity
             android:name=".ResultsActivity"
             android:exported="false" />
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
 
     </application>
 
